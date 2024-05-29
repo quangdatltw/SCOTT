@@ -5,3 +5,4 @@
 /myProject/myProject/__pycache__
 /myProject/myApp/migrations/__pycache__
 *.pyc
+/.idea
