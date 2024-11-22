@@ -235,7 +235,7 @@ def home(request):
         return render(request, 'home.html', context)
 
 
-def compress_audio(input_path, output_path, target_bitrate="320k"):
+def compress_audio(input_path, output_path, target_bitrate="128k"):
     audio = AudioSegment.from_file(input_path)
     audio.export(output_path, bitrate=target_bitrate)
 
