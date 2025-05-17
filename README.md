@@ -1,15 +1,14 @@
-Based on the project files and the issues you're experiencing, here's a README for your SCOTT audio streaming service project:
-
 # SCOTT - Audio Streaming Service
 
 SCOTT is a Django-based audio streaming platform that allows users to discover, play, and manage music.
 
-## Authors
-- Đàm Quang Đạt
-- Nguyễn Mạnh Quân
-- Lê Văn Thắng
-- Nhâm Ngọc Đức
-- Cao Đức Chung
+## Technologies Used
+
+- Django 5.0.4
+- HTMX
+- PostgreSQL (database)
+- pydub (audio processing)
+- python-dotenv (environment variables)
 
 ## Setup Instructions
 
@@ -77,10 +76,4 @@ The admin interface can be accessed at: http://127.0.0.1:8000/admin/
 - **Album**: Collections of songs by artists
 - **Playlist**: User-created collections of songs
 
-## Technologies Used
 
-- Django 5.0.4
-- HTMX
-- PostgreSQL (database)
-- pydub (audio processing)
-- python-dotenv (environment variables)
